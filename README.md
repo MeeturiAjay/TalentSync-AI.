@@ -40,10 +40,10 @@
 
 ---
 
-## 📸 Demo
+## 📸 Demo Video
 
-> *Add a GIF or screenshot here to show how it works in action!*  
-*(Optional but highly recommended)*
+> *Click on "Video" to see how it works in action!*  
+*[Video](https://drive.google.com/file/d/1c0qQc8QT3M9JJ8wdVM6Y-ojwO3itXkyE/view?usp=sharing)*
 
 ---
 
@@ -80,5 +80,5 @@ TalentSync-AI/
 
 ## 👨‍💻 Author
 ### Meeturi Ajay Kumar
-📫 meeturiajaykumar.23@gmail.com
-🔗 [Linkedin](https://www.linkedin.com/in/meeturi-ajay-kumar-a02743248/)
+- 📫 meeturiajaykumar.23@gmail.com
+- 🔗 [Linkedin](https://www.linkedin.com/in/meeturi-ajay-kumar-a02743248/)
