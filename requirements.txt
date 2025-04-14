@@ -9,4 +9,3 @@ faiss-cpu
 flask
 pypdf
 gunicorn
-fcntl
