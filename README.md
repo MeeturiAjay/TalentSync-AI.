@@ -42,7 +42,7 @@
 
 ## 📸 Demo Video
 
-> *Click on "*[Video](https://drive.google.com/file/d/1c0qQc8QT3M9JJ8wdVM6Y-ojwO3itXkyE/view?usp=sharing)*" to see how it works in action!*  
+> Click on *[Video](https://drive.google.com/file/d/1c0qQc8QT3M9JJ8wdVM6Y-ojwO3itXkyE/view?usp=sharing)* to see how it works in action!  
 
 ---
 
