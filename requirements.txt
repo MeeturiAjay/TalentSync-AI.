@@ -7,3 +7,4 @@ ipykernel
 sentence-transformers
 faiss-cpu
 flask
+pypdf

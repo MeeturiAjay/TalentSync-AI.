@@ -12,8 +12,8 @@ app = Flask(__name__)
 app.secret_key = 'supersecretkey'
 
 # File paths
-JD_FILE_PATH = "C:/Users/Rohit/OneDrive/RISHI/PROJECTS/MultiAgent_JobScreening/flaskimplementation/uploads/job_description.csv"
-CV_FOLDER = "C:/Users/Rohit/OneDrive/RISHI/PROJECTS/MultiAgent_JobScreening/flaskimplementation/CVs1"
+JD_FILE_PATH = r"C:\Users\meetu\Agentic AI - KrishNaik\AI_MULTIAGENT_JOBSCREENING_PLATFORM\uploads\job_description.csv"
+CV_FOLDER = r"C:\Users\meetu\Agentic AI - KrishNaik\AI_MULTIAGENT_JOBSCREENING_PLATFORM\CVs1"
 app.config['UPLOAD_FOLDER'] = CV_FOLDER
 
 # Home Page → index.html

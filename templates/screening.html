@@ -1,7 +1,7 @@
 {% extends 'layout.html' %}
 
 {% block content %}
-<h2 class="text-4xl font-bold text-center text-gray-800 dark:text-white mt-10 mb-10">
+<h2 class="text-4xl font-bold text-center text-gray-800 dark:text-white mt-12 mb-0 ml-[400px] w-[calc(100%-500px)]">
     🧑‍💻 TalentSync AI - Job Screening
 </h2>
 
@@ -17,9 +17,9 @@
 </div>
 
 <div class="max-w-screen-2xl mx-auto px-6 lg:px-12">
-    <div class="min-h-screen pt-20 px-6 gap-6 relative">
+    <div class="min-h-screen pt-10 px-6 gap-6 relative">
         <aside id="logo-sidebar" class="fixed top-0 left-0 z-40 w-[460px] h-screen bg-white border-r border-gray-200 dark:bg-gray-900 dark:border-gray-700 sm:translate-x-0">
-            <div class="h-full px-8 pt-28 pb-10 space-y-8 overflow-hidden">
+            <div class="h-full px-8 pt-28 pb-10 space-y-8 overflow-y-auto">
                 <form action="/screening" method="post" enctype="multipart/form-data" id="upload" class="space-y-8">
                     <h3 class="text-[1.75rem] font-bold text-gray-800 dark:text-white">📄 Upload Job Description</h3>
 

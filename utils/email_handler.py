@@ -8,7 +8,7 @@ import random
 from datetime import datetime
 
 load_dotenv()
-sender_email = "meeturiajaykumar.23@gmail.com"
+sender_email = os.getenv("USERNAME")
 sender_password = os.getenv("GOOGLE_APP_PASSWORD")
 try:
     df = pd.read_csv('uploads/job_description.csv', encoding='utf-8')
@@ -33,7 +33,7 @@ Your in-person interview has been scheduled on {interview_date} at {interview_ti
 We appreciate your interest in our organization and look forward to meeting you.
 
 Best Regards,
-The Hiring Team
+TalenSyncAI Team
 """
     else:
         subject = "Update on Your Job Application"
@@ -46,7 +46,7 @@ After careful consideration, we regret to inform you that we won't be moving for
 
 We appreciate your interest and encourage you to apply for future opportunities with us.
 
-Best Wishes,\nThe Team
+Best Wishes,\nTalenSyncAI Team
         """
 
     try:

@@ -2,33 +2,38 @@
 
 {% block content %}
 <div class="w-full min-h-screen bg-gray-50 dark:bg-gray-900 flex items-center justify-center overflow-hidden">
-    <div class="flex flex-col md:flex-row items-center justify-between w-full max-w-7xl px-4 md:px-8">
+  <div class="flex flex-col md:flex-row items-center justify-between w-full max-w-7xl px-4 md:px-8">
 
-        <!-- Left: Text -->
-        <div class="md:w-1/2 text-left">
-            <h1 class="text-4xl font-bold text-gray-800 mb-4 whitespace-nowrap">
-                AI-Powered Resume Screening
-            </h1>
-            <p class="text-gray-600 mb-6">
-                Instantly analyze resumes against job descriptions. Get automated decisions on candidate suitability, detailed reasons, evaluation criteria, and receive the final results directly via email.
-            </p>
-            <a href="/screening" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition w-fit">
-                Get Started
-            </a>
-        </div>
-
-        <!-- Right: Animation -->
-        <div class="md:w-1/2 flex justify-end">
-            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-            <lottie-player 
-                src="{{ url_for('static', filename='videos/resume.json') }}" 
-                background="transparent"  
-                speed="1"  
-                style="width: 100%; max-width: 500px; height: auto;"  
-                loop 
-                autoplay>
-            </lottie-player>
-        </div>
+    <!-- Left: Text -->
+    <div class="md:w-1/2 text-left">
+      <!-- make heading gray‑800 in light, white in dark -->
+      <h1 class="text-4xl font-bold text-gray-800 dark:text-white mb-4 whitespace-nowrap">
+        AI-Powered Resume Screening
+      </h1>
+      <!-- make paragraph gray‑600 in light, white in dark -->
+      <p class="text-gray-600 dark:text-white mb-6">
+        Instantly analyze resumes against job descriptions. Get automated decisions on
+        candidate suitability, detailed reasons, evaluation criteria, and receive the
+        final results directly via email.
+      </p>
+      <a href="/screening"
+         class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition w-fit">
+        Get Started
+      </a>
     </div>
+
+    <!-- Right: Animation -->
+    <div class="md:w-1/2 flex justify-end">
+      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+      <lottie-player 
+        src="{{ url_for('static', filename='videos/resume.json') }}" 
+        background="transparent"  
+        speed="1"  
+        style="width: 100%; max-width: 500px; height: auto;"  
+        loop 
+        autoplay>
+      </lottie-player>
+    </div>
+  </div>
 </div>
 {% endblock %}
